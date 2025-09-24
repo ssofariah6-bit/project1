@@ -13,12 +13,6 @@ const Menus =({menu, masukkeranjang}) => {
                     <Card.Text>
                         Rp. {NumberWithCommas(menu.harga)}
                     </Card.Text>
-                   {/* <button 
-                   variant ="primary"
-                   className='mt-auto'
-                   onClick={() => masukkeranjang(menu)}>
-                    Tambah Ke Keranjang
-                   </button> */}
                 </Card.Body>
             </Card>
         </Col>
