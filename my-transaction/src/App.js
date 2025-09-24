@@ -13,6 +13,7 @@ import { NavbarComp } from "./component";
 import { Home } from "./pages/Index";
 import { Sukses} from "./pages/Index";
 import { RekapTransaksi } from "./pages/Index";
+import { Stok } from "./pages/Index";
 
 function App(){
   return (
@@ -23,6 +24,7 @@ function App(){
         <Route path="/" component={Home} exact/>
         <Route path="/Sukses" component={Sukses} exact/>
         <Route path="/RekapTransaksi" component={RekapTransaksi} exact/>
+        <Route path="/Stok" component={Stok} exact/>
       </Switch>
     </main>
     </BrowserRouter>
